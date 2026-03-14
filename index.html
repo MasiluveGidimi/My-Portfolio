@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio Website </title>
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+</head>
+<body>
+    <div id="container">
+        <h1>Enoch Masiluve Gidimi</h1>      
+    </div>
+      <h2 class="profession">Frontend Developer / Backend Developer / Biological Science Student</h2>
+      <p>I build modern web applications and beautiful digital experiences.</p>
+    
+      <div id="button">
+      <button onclick="scrollToContact()" title="Go to Contact" class="me">Contact me</button>
+         
+    
+  <form id="contactForm">
+
+    name:
+    <input type="text" id="name" placeholder="Enter your name" required>
+
+    Email:
+    <input type="email" id="email" placeholder="Enter your email" required>
+
+    Number
+    <input type="tel" id="phone" placeholder="Enter your number" required>
+
+    <button type="submit">Send</button>
+  </form>  
+      <p id="message"></p>    
+      </div>
+
+      <div id="Myself">
+      <img src="images\MySelf.jpg" alt="Picture of Myself"/>
+      </div><hr/>
+      
+        <p>Hi, I'm Enoch Masiluve Gidimi, a Biological Science student and passionate web developer.
+          I enjoy building fast, accessible, and user-friendly websites. I specialize in HTML, CSS,
+          and JavaScript while continuing to expand my skills in modern web technologies.
+          </p>
+
+          <p>
+          Alongside my studies in Biological Sciences, I am growing as a full-stack developer by
+          learning backend technologies such as Node.js, React, PostgreSQL, and Web3 development.
+          My goal is to combine analytical thinking from science with modern software development
+          to build scalable and innovative digital solutions.
+          </p>
+
+      <h2>Skills:</h2>
+      <h3>Frontend</h3>
+      <ul>
+        <div class="skill">
+        <li><i class="fa-brands fa-html5">Html</i></li>
+        <div class="progress">
+          <div class="progress-bar html"></div>
+        </div>
+       <span class="level">[Advanced]</span>
+        </div>
+
+        <div class="skill">
+        <li><i class="fa-brands fa-css">CSS</i></li>
+        <div class="progress">
+          <div class="progress-bar css"></div>
+        </div>
+        <span class="level">[Advanced]</span>
+        </div>
+
+        <div class="skill">
+        <li><i class="fa-solid fa-file-js">Javascript</i></li>
+        <div class="progress">
+          <div class="progress-bar js"></div>
+        </div>
+        <span class="level">[Intermediate]</span>
+        </div>
+      </ul>
+      <h3>Backend</h3>
+      <ul>
+        <div class="skill">
+        <li><i class="fa-brands fa-node-js">Node.js</i></li>
+        <div class="progress">
+          <div class="progress-bar node"></div>
+        </div>
+        <span class="level">[Learning]</span>
+        </div>
+
+        <div class="skill">
+        <li><i class="fa-brands fa-react">React</i></li>
+        <div class="progress">
+          <div class="progress-bar react"></div>
+        </div>
+        <span class="level">[Learning]</span>
+        </div>
+
+        <div class="skill">
+        <li><i class="fa-brands fa-postgresql">PostgreSQL</i></li>
+        <div class="progress">
+          <div class="progress-bar postgres"></div>
+        </div>
+        <span class="level">[Learning]</span>
+        </div>
+
+        <div class="skill">
+        <li>Web3 and DApps</li>
+        <div class="progress">
+          <div class="progress-bar web3" ></div>
+        </div>
+        <span class="level">[Beginner]</span>
+        </div>
+      </ul>
+      <h2>Experience:</h2>
+      Full-Stack Web Development Training (Udemy-2025);
+      <ul>
+        <li>Completed an intensive full-stack web development course.</li>
+        <li>Built multiple real-world projects including responsive websites and web applications.</li>
+        <li>Learned front-end and back-end technologies such as:</li>
+        <ul>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Javascript</li>
+          <li>Node</li>
+          <li>React</li>
+          <li>PostgreSQL</li>
+          <li>Web3 and DApps</li>
+        </ul>
+        <li>Practiced deploying web applications and debugging production issues.</li>
+      </ul>
+      <h3>Certificate:</h3>
+      <ul>
+        <li>Full-Stack Web Developer Certificate – Udemy</li>
+        <li>Completed 60+ hours of hands-on development training.</li>
+        <div id="Certificate"><img src="images\Fullstack Web developer Certificate.png"/>
+        </div>
+      </ul><hr>
+    
+  <div id="contactSection">
+
+     <div id="GIT">
+      <h2>Get In Touch:</h2>
+      <p >My Email: Masiluvegidimi@gmail.com</p>
+      <p>My Number: 0782266160</p>
+    </div>
+
+     <form id="writeMessage">
+      <label>Message</label>
+      <textarea id="messageTwo" placeholder="Write your message"></textarea>
+    
+
+      <div id="formMessage">
+     <button type="submit">Send Message</button>
+      <p id="message"></p>
+      </div>
+    </form>
+
+  </div>
+
+  <p>&copy;2026 Enoch Masiluve Gidimi</p>
+
+    
+    
+    <a id="top">
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    </a>
+
+    <script src="script.js"> </script>
+</body>
+</html>

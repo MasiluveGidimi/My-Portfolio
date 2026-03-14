@@ -1,0 +1,168 @@
+body{
+  background-color: burlywood;
+  flex: 1 1 300px;
+  padding: 20px;
+}
+
+#container{
+  text-align: center;
+  color: rgb(150, 5, 5);
+  font: 1em sans-serif;
+  font-size: 1.5em;
+  background-color: rgba(156, 145, 145, 0.2);
+  border: solid;
+  border-radius: 2em;
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.profession{
+  text-align: center;
+  color: hsl(237, 41%, 22%);
+}
+
+p{
+  text-align: center;
+  font-size: large;
+}
+
+.me{
+  padding-left: 30px;
+  
+}
+
+#Certificate{
+  padding-top: 50px;
+
+}
+
+img{
+  height: auto;
+  max-width: 100%;
+  height: auto;
+}
+
+#Myself{
+  padding-top: 50px;
+  border-radius: 40px;
+}
+
+#button{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 20px;
+}
+
+.skill{
+  margin: 20px 0;
+}
+
+.progress{
+  background:#333;
+  height:25px;
+  width: 350px;
+  border-radius:20px;
+  overflow:hidden;
+}
+
+.progress-bar{
+  height:100%;
+  border-radius:20px;
+}
+
+.html{
+  width:90%;
+  background:#e34c26;
+}
+
+.css{
+  width: 85%;
+  background:#264de4;
+} 
+
+.js{
+  width: 80%;
+  background: #f7df1e;
+}
+
+.react{
+  width: 65%;
+  background: #61dafb;
+}
+
+.node{
+  width: 60%;
+  background: #3c873a;
+}
+
+.postgres{
+ width: 50%;
+ background: #336791;
+}
+
+.web3{
+  width: 40%;
+  background: #8a2be2;
+} 
+
+#contactSection{
+  background-color: #333;
+  border-radius: 50px;
+}
+
+#GIT{
+  color: antiquewhite;
+  text-align: center;
+}
+
+#formMessage{
+ text-align: left;
+  margin-left: 20px;
+}
+
+#writeMessage{
+ display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 20px;
+}
+
+input {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  width: 250px;
+}
+
+button {
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  body{
+    font-size: 14px;
+  }
+}
+
+#container{
+max-width:1200px;
+margin:auto;
+padding:20px;
+}
+
+img{
+max-width:100%;
+height:auto;
+}
+
+@media (max-width:768px){
+.navbar{
+flex-direction:column;
+}
+}
